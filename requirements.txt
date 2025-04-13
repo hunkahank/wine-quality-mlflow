@@ -1,0 +1,9 @@
+# Core ML libraries
+pandas
+scikit-learn
+
+# MLflow
+mlflow
+
+# Optional: For fetching UCI dataset easily, if needed later
+# ucimlrepo
