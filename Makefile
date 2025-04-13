@@ -32,6 +32,13 @@ install: ## Install requirements
 	$(VENV_PIP) install -r $(REQS)
 	@echo ">>> Installation complete."
 
+# Run the main training script using the virtual environment's python
+# Ensure environment exists, assumes dependencies are installed via 'make install' or manually
+run: ## Run the main training script
+	@echo ">>> Running training script: $(TRAIN_SCRIPT)..."
+	$(VENV_PYTHON) $(TRAIN_SCRIPT)
+	@echo ">>> Training script finished."
+
 # Lint code
 lint: ## Lint code
 	flake8 *.py
