@@ -4,6 +4,7 @@ click
 # Core ML libraries
 pandas
 scikit-learn
+scikit-optimize
 
 # MLflow
 mlflow
