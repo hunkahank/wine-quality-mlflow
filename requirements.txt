@@ -1,3 +1,6 @@
+# for CLI arguments
+click
+
 # Core ML libraries
 pandas
 scikit-learn
